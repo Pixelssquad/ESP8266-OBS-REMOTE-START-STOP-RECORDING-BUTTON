@@ -11,5 +11,7 @@ Install the library to "libraries" folder in your Arduino sketchbook folder. Upd
 ### Notes
 This demo does not properly implement all features of communicating with the OBS Websocket server. Specifically, unique messages IDs are not generated as specified by the protocol. OBS successfully processes the commands, even without dynamically generated IDs. Because the example works without unique message IDs, I kept them static in the spirit of the simplest possible demo of ESP-8266 to OBS communication.
 
+If using Windows and this does not connect to OBS, make sure you have the firewall rules setup to allow inbound and oubound connections to/from OBS.
+
 ### Credits
 Thanks to Branden for his great library and the sample Websocket client example. This code is just a specific OBS implementation of his more general websocket client code.

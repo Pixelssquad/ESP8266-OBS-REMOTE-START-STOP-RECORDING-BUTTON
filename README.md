@@ -1,4 +1,4 @@
-## Websocket Client and Server for ESP-8266
+## Websocket Client for ESP-8266
 
 An example sketch that lets you communicate directly with the native OBS (v 28+) Websocket server using a ESP-8266. This sketch uses the ESP8266-Websocket library and is a fork of the libraries client demo. It is a bare-bones example of sending commands to, and getting data from an OBS Websocket server.
 

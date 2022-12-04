@@ -9,9 +9,7 @@ https://github.com/morrissinger/ESP8266-Websocket/
 Install the library to "libraries" folder in your Arduino sketchbook folder. Update the host to match that of your OSB websocket server.
 
 ### Notes
-Inside of the WebSocketServer class there is a compiler directive to turn on support for the older "Hixie76" standard. If you don't need it, leave it off as it greatly increases the memory required.
-
-Because of limitations of the current Arduino platform (Uno at the time of this writing), this library does not support messages larger than 65535 characters. In addition, this library only supports single-frame text frames. It currently does not recognize continuation frames, binary frames, or ping/pong frames.
+This demo does not properly implement all features of communicating with the OBS Websocket server. Specifically, unique messages IDs are not generated as specified by the protocol. OBS successfully processes the commands, even without dynamically generated IDs. Because the example works without unique message IDs, I kept them static in the spirit of the simplest possible demo of ESP-8266 to OBS communication.
 
 ### Credits
-Thanks to Branden for his great library and the sample Websocket client exmple. This code is just a specific OBS implementation of his more general websocket client code.
+Thanks to Branden for his great library and the sample Websocket client example. This code is just a specific OBS implementation of his more general websocket client code.

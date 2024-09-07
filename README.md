@@ -1,6 +1,11 @@
 ## Un telecomando remoto per startare e stoppare la registrazione su OBS Studio utilizzando una schedina esp8266
 
-Ho deciso di realizzare questo telecomando perchè quando registro i miei tutorial, recensioni e spacchettamenti dalla seconda scrivania mi trovavo scomodo a startare e arrestare la registrazione su obs studio.
+Ho deciso di realizzare questo telecomando perchè quando registro i miei tutorial, recensioni e spacchettamenti dalla seconda scrivania mi trovavo scomodo a startare e arrestare la registrazione su obs studio. Ora ho un telecomando wireless comodissimo!
+
+Per capire come poter fare mi sono basato su questi due progetti, e facendo una fork del primo che era un esempio di client websocket sono riuscito a portare a termine il mio programma.
+https://github.com/illusion-pasture-program/ESP8266-OBS-Websocket-Client/blob/master/ESP8266-OBS-WebSocketClient_Demo.ino
+https://www.instructables.com/NodeMCU-ProjectButton-Control-LED/
+
 
 Schema
 

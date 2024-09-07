@@ -8,6 +8,7 @@ https://www.instructables.com/NodeMCU-ProjectButton-Control-LED/
 
 
 Schema
+I resistori sono da 330 e 10k
 
 ![OBS CONTROLLER_bb1](https://github.com/user-attachments/assets/a1e49e6f-e757-4c9e-8451-cc9513d1104c)
 

@@ -16,3 +16,5 @@ Breadboard per i test
 
 ![IMG20240908003007](https://github.com/user-attachments/assets/a0a0c807-2f8d-4397-b7f8-0837b5216521)
 
+Ed eccolo montato dentro ad un case di un alimentatore nintendo
+![IMG20240908024842](https://github.com/user-attachments/assets/2568f318-4b15-42e6-8362-dd1a971d4a48)
